@@ -1,0 +1,21 @@
+{
+  "usuarios": [
+    { "id": 1, "nome": "Samara", "email": "samara@email.com" }
+  ],
+  "roupas": [
+    {
+      "id": 1,
+      "tipo": "vestido",
+      "cor": "vermelho",
+      "tamanho": "M",
+      "acessorios": ["colar", "pulseira"]
+    },
+    {
+      "id": 2,
+      "tipo": "camiseta",
+      "cor": "preta",
+      "tamanho": "G",
+      "acessorios": ["boné"]
+    }
+  ]
+}
