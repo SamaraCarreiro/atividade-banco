@@ -6,12 +6,12 @@ const porta = 3001;
 // Rota GET para todos os usuários
 app.get("/usuarios", async (req, res) => {
   try {
-    const consulta = await axios.get("http://localhost:3000/roupas");
+    const consulta = await axios.get("http://localhost:3000/usuarios");
     console.log("Consulta realizada");
     return res.json(consulta.data);
   } catch (error) {
     console.error("Erro na consulta:", error);
-    return res.status(500).json({ error: "Erro ao consultar roupas" });
+    return res.status(500).json({ error: "Erro ao consultar usuários" });
   }
 });
 
